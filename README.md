@@ -3,7 +3,7 @@ Musings with Nim as an Offensive language and other stuff too
 
 
 ### BasicInjection.nim
-Code borrowed from: https://github.com/byt3bl33d3r/OffensiveNim/blob/master/src/shellcode_bin.nim and adapted for standard DLL injection.
+Code borrowed from: https://github.com/byt3bl33d3r/OffensiveNim/blob/master/src/shellcode_bin.nim (Author: Marcello Salvati, Twitter: @byt3bl33d3r) and adapted for standard DLL injection.
 
 ## Dependencies: nimble install winim
 
