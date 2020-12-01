@@ -10,7 +10,7 @@ Code borrowed from: https://github.com/byt3bl33d3r/OffensiveNim/blob/master/src/
 ## Compile: nim compile --app=console --cpu=amd64 BasicInjection.nim
 
 ## Usage: 
-Arash@DESKTOP-8ETETLV MINGW64 ~/Desktop
+Waldo-IRC@DESKTOP-8ETETLV MINGW64 ~/Desktop
 
 $ ./source.exe C:\\hello.dll
 
